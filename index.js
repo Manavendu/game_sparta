@@ -27,6 +27,7 @@ var object = document.getElementById('first').addEventListener('click', function
     if(this.getElementsByTagName( "img")[0].src.slice(-5)=="0.png"){
         
         alert("You killed the Wrong Bird");
+        overgame();
     }
 
     score++;
